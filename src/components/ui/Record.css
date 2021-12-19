@@ -49,7 +49,7 @@
 
 }
 
-@media screen and(max-width:600px) {
+@media screen and (max-width:600px) {
     .record p{
         font-size: 12px;
     }

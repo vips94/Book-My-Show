@@ -41,4 +41,8 @@
     .homeContainer ul {
         flex-direction: column;
     }
+
+    .bar{
+        top: -20%;
+    }
   }
