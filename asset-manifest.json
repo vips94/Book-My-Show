@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Book-My-Show/static/css/main.bcdd7b1f.chunk.css",
+    "main.js": "/Book-My-Show/static/js/main.254f0a6d.chunk.js",
+    "main.js.map": "/Book-My-Show/static/js/main.254f0a6d.chunk.js.map",
+    "runtime-main.js": "/Book-My-Show/static/js/runtime-main.341f56e4.js",
+    "runtime-main.js.map": "/Book-My-Show/static/js/runtime-main.341f56e4.js.map",
+    "static/js/2.9f73b569.chunk.js": "/Book-My-Show/static/js/2.9f73b569.chunk.js",
+    "static/js/2.9f73b569.chunk.js.map": "/Book-My-Show/static/js/2.9f73b569.chunk.js.map",
+    "static/js/3.7f1147dc.chunk.js": "/Book-My-Show/static/js/3.7f1147dc.chunk.js",
+    "static/js/3.7f1147dc.chunk.js.map": "/Book-My-Show/static/js/3.7f1147dc.chunk.js.map",
+    "index.html": "/Book-My-Show/index.html",
+    "static/css/main.bcdd7b1f.chunk.css.map": "/Book-My-Show/static/css/main.bcdd7b1f.chunk.css.map",
+    "static/js/2.9f73b569.chunk.js.LICENSE.txt": "/Book-My-Show/static/js/2.9f73b569.chunk.js.LICENSE.txt",
+    "static/media/Card.css": "/Book-My-Show/static/media/1.a08d0d10.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.341f56e4.js",
+    "static/js/2.9f73b569.chunk.js",
+    "static/css/main.bcdd7b1f.chunk.css",
+    "static/js/main.254f0a6d.chunk.js"
+  ]
+}
