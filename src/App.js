@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './components/ui/Card';
+import Home from './view/Home';
+import Payment from './view/Payment';
+import Show from './view/Show';
+import {useSelector} from 'react-redux';
 
-function App() {
+
+const App = () => {
+  const paymentPopup = useSelector(state=>state.ui.paymentPopup)
+  const selecedShow = useSelector(state=>state.show.showSelected)
+  const darkMode = useSelector(state=>state.ui.darkMode)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={"app "+(darkMode ? "dark" : "light")}>
+        {paymentPopup &&  <Card className="billpayment">
+          <Payment/>
+        </Card>}
+        {selecedShow!=="" && <Card className="select_show">
+           <Show/>
+        </Card>
+        }
+        <Card className="">
+          <Home/>
+        </Card >
+        
     </div>
   );
 }

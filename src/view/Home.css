@@ -1,0 +1,44 @@
+.homeContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px 0 200px;
+    gap: 3rem;
+    z-index: 10;
+    position: relative;
+}
+
+.revenue{
+    align-self: flex-start;
+}
+
+.toggle{
+    align-self: flex-start;
+}
+
+.homeContainer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.bar{
+    position: absolute;
+    top: -40%;
+}
+
+@media screen and (max-width: 600px) {
+    .homeContainer {
+        padding: 0 10px 0 10px;
+        gap: 2rem;
+    }
+
+    .homeContainer ul {
+        flex-direction: column;
+    }
+  }

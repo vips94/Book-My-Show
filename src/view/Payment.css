@@ -1,0 +1,51 @@
+.paymentContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px 0 200px;
+    gap: 3rem;
+    z-index: 10;
+    position: absolute;
+}
+
+.paymentBill{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.total{
+    width: 100%;
+    border-top: 2px solid rgba(0,0,0,1);
+}
+
+.buttonSection{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .paymentContainer{
+        padding: 0 10px 0 10px;
+    }
+
+    .paymentBill{
+        width: 90%;
+        font-size: 12px;
+    }
+}
+
+

@@ -1,0 +1,64 @@
+.record{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+    
+}
+
+.record p{
+    font-size: 18px;
+}
+
+.record h2{
+    align-self: center;
+    font-size: 18px;
+    /* max-width: 65px; */
+    overflow: scroll;
+    position: relative;
+}
+
+.record h2::-webkit-scrollbar{
+    height: 0;
+    max-width: 0;
+    background: transparent;
+    
+}
+
+.record h2::-webkit-scrollbar-track{
+    /* position: absolute; */
+    /* top: 0; */
+    background: transparent;
+    
+}
+.record h2::-webkit-scrollbar-button{
+    /* position: absolute; */
+    /* top: 0; */
+    background: transparent;
+    
+}
+
+.rs{
+    font-size: 18px;
+    font-weight: bold;
+    overflow: auto;
+
+}
+
+@media screen and(max-width:600px) {
+    .record p{
+        font-size: 12px;
+    }
+    
+    .record h2{
+        font-size: 12px;
+    }
+    
+    .rs{
+        font-size: 12px;
+    }
+}

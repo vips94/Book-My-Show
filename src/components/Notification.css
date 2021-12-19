@@ -1,0 +1,21 @@
+.notification{
+    width: 25%;
+    height: 50px;
+    background: rgb(213, 255, 151);
+    border-radius: 8px;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    animation: popup 0.5s forwards;
+    color: black;
+}
+
+@keyframes popup {
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
